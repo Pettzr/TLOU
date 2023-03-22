@@ -1,0 +1,304 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home{
+    background-image: url('./The-Last-Of-Us-HBO-Wallpaper-13\ 1.png');
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header > figure > img {
+    height: 144px;
+    width: 254px;
+}
+
+nav {
+   margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+}
+
+nav > ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul > li > a {
+    color : var(--color-grey-2);
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+ ul > li > a:hover {
+    font-weight: 600;
+ }
+
+ main {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+ h1{
+    width: 668px;
+    font-family: Iceland;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: left;
+    color: var(--color-grey-2);
+ }
+
+ main > p {
+     width: 506px;
+     font-family: Actor;
+     font-size: 26px;
+     font-weight: 400;
+     line-height: 32px;
+     text-align: left;
+     color: var(--text-color-1);
+ }
+
+ button{
+    height: 46px;
+    width: 180px;
+    left: 5002px;
+    top: 23px;
+    color: var(--color-grey-2);
+    margin: 10px;
+    font-family: Iceland;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .active {
+    background-color: var(--color-secondary);
+ }
+ .active:hover{
+    border: 2px solid var(--color-grey-2);
+ }
+
+ .inactive {
+    background-color: var(--color-grey-1);
+ }
+
+ .inactive:hover{
+    border: 2px solid var(--color-grey-2);
+ }
+
+ main > section {
+    margin-top: 100px;
+ }
+
+ h3 {
+    height: 65px;
+    width: 336px;
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--color-grey-2);
+ }
+
+ section > ul{
+    width: 800px;
+ }
+
+ section > h1 {
+    margin-top: -150px ;
+ }
+
+ section > ul > li:nth-of-type(1) {
+   height: 139px;
+   width: 231px;
+   background-image: url('./FF3P7D3VJ5DZ5FGALN2YYQU3ZM\ 1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+   opacity: 100%;
+}
+
+section > ul > li:nth-of-type(2) {
+   height: 139px;
+   width: 231px;
+   background-image: url('./FqgwwxCWIAAT44B.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+   opacity: 100%;
+}
+
+section > ul > li:nth-of-type(3) {
+   height: 139px;
+   width: 231px;
+   background-image: url('./the-last-of-us-serie-hbo-1635189737296_v2_4x3.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+   opacity: 500%;
+}
+
+#thumbs{
+   font-size: 30px;
+   color: var(--color-grey-2);
+   text-align: center;
+   text-shadow: 0 0 2px #000;
+}
+
+ .episodes {
+    height: 900px;
+    background-image: url('./1212581-the-last-of-us\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+ }
+
+ .posts {
+    height: 546px;
+    width: 479px;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: justify;
+ }
+
+ .posts > p {
+    color: var(--color-grey-2);
+    font-family: Iceland;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 80px;
+ }
+
+ .episodes-list{
+    height: 762px;
+    width: 671px;
+    margin: 0 auto;
+    margin-left: 3vw;
+    overflow: auto;
+ }
+
+ .card{
+    height: 182px;
+    width:652px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+ }
+
+ .episodes-list::-webkit-scrollbar{
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    border: 3px solid black;
+ }
+
+ .card > img {
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+ }
+
+ .card-text {
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+ }
+
+ .card-text > h4 {
+    height: 30px;
+    font-family: Darker Grotesque;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2)
+ }
+
+ .card-text > p {
+    height: 88px;
+    width: 324px;
+    left: 5690px;
+    top: 639px;
+    border-radius: nullpx;
+    font-family: Darker Grotesque;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: var(--color-grey-2)
+ }
+
+footer {
+    height: 377px;
+    background: linear-gradient(
+        180deg, #000000 0%, #950202 289.06%
+    );
+}
+
+footer > figure> img {
+    height: 140px;
+    width: 140px;
+}
+
+h2 {
+    height: 47px;
+    width: 668px;
+    left: 5446px;
+    font-family: Iceland;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+.blink {
+  animation: blinker-border 0.6s linear infinite;
+}
+
+@keyframes blinker-border {
+  100% {
+    opacity: 0;
+  }
+}
